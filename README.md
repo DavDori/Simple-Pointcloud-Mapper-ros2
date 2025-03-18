@@ -30,7 +30,7 @@ sudo apt update && sudo apt install ros-humble-pcl-ros
 
 ```
 cd ~/ros2_ws/src
-git clone git@github.com:DavDori/Simple-Pointcloud-Mapper-ros2.gitsimple_pointcloud_mapper
+git clone git@github.com:DavDori/Simple-Pointcloud-Mapper-ros2.git simple_pointcloud_mapper
 cd ~/ros2_ws
 colcon build --packages-select simple_pointcloud_mapper
 source install/setup.bash
